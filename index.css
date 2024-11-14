@@ -1,0 +1,107 @@
+:root{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#textView{
+    display: flex;
+    flex-direction: row;
+    width: 35vw;
+    outline: black solid 1px;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+#codeBox{
+    margin: 1% 3% 1% 1%;
+    left: 0;
+    top: 50%;
+    outline: black solid 1px;
+    width: 50%;
+    height: 90vh;
+    padding: 1vh 2vw 2vw;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#codeTextBox{
+    all: unset;
+    padding: 5%;
+    flex-direction: column;
+    resize: none;
+    width: 95%;
+    height: 80%;
+    border-radius: 5px;
+    outline: black solid 1px;
+    font-size: large;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    display: block;
+}
+
+
+#buttonBox{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+}
+
+#submitButton{
+    margin-right: 45%;
+}
+
+#codeTextBoxLabel{
+    justify-self: center;
+    text-align: center;
+    font-size: 140%;
+    word-wrap: break-word;
+}
+
+#compiledView{
+    margin: 1%;
+    left: 0;
+    top: 50%;
+    outline: black solid 1px;
+    width: 50%;
+    height: 90vh;
+    padding: 1vh 2vw 2vw;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#compiledTextBoxLabel{
+    justify-self: center;
+    text-align: center;
+    font-size: 140%;
+    word-wrap: break-word;
+}
+
+#compiledCode{
+    padding: 5%;
+    resize: none;
+    width: 95%;
+    height: 80%;
+    border-radius: 5px;
+    outline: black solid 1px;
+    font-size: large;
+    word-wrap: break-word;
+}
+
+#codeText{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    resize: none;
+    word-wrap: break-word;
+}
